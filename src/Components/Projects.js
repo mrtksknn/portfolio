@@ -1,12 +1,10 @@
 import React from 'react'
-import { FaCode } from 'react-icons/fa';
 import { projects } from './data';
 
 const Projects = () => (
   <section id="projects" className="text-gray-400 bg-gray-900 body-font">
-      <div className="container text-center lg:px-40 px-5 py-10 mx-auto">
+      <div className="container text-center py-10 mx-auto w-2/3">
         <div className="flex flex-col w-full mb-20">
-          <FaCode className="inline-block mx-auto w-10 mb-4" />
           <h1 className="text-white text-3xl sm:text-4xl font-medium title-font mb-4">
             Works I've Built
           </h1>

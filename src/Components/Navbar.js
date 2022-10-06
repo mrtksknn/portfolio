@@ -2,9 +2,9 @@ import React from 'react'
 
 const Navbar = () => (
   <header className="bg-gray-800 md:sticky top-0 z-10">
-    <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <div className="container flex flex-col md:flex-row flex-wrap items-center mx-auto py-5 w-2/3">
       <a href="#about" className="title-font font-medium text-white mb-4 md:mb-0">
-        <span className="ml-3 text-xl">
+        <span className="text-xl">
           MERT KESKIN
         </span>
       </a>
@@ -21,7 +21,7 @@ const Navbar = () => (
       </nav>
       <a
         href="#contact"
-        className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
+        className="inline-flex items-center bg-gray-800 border-0 py-1 focus:outline-none hover:bg-gray-700 rounded text-base md:mt-0">
         Hire Me
       </a>
     </div>
