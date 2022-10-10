@@ -1,8 +1,34 @@
 import React from 'react'
+import {FaAward} from 'react-icons/fa';
+import {FiUsers} from 'react-icons/fi';
+import {VscFolderLibrary} from 'react-icons/vsc';
 
-const About = () => (
-  <section id='about'>
-    <div className="container flex flex-col md:flex-row items-center mx-auto py-20 w-2/3">
+const About = () => {
+  
+  const data = [
+    {
+      id: 1,
+      icon: {FaAward},
+      header: 'Experience',
+      detail: '3+ Years Working'
+    },
+    {
+      id: 2,
+      icon: {FiUsers},
+      header: 'Experience',
+      detail: '3+ Years Working'
+    },
+    {
+      id: 3,
+      icon: {VscFolderLibrary},
+      header: 'Experience',
+      detail: '3+ Years Working'
+    }
+  ];
+
+  return (
+    <section id='about'>
+      <div className="container flex flex-col md:flex-row items-center mx-auto py-20 w-2/3">
         <div className="flex flex-col lg:flex-grow items-center md:items-start text-center md:text-left md:w-1/2 lg:pr-24 md:pr-16 mb-16 md:mb-0">
           <h1 className="text-white text-3xl sm:text-4xl title-font font-medium mb-4">
             Hi, I'm Mert.
@@ -35,9 +61,19 @@ const About = () => (
             alt="hero"
             src="./coding.svg"
           />
+          <div className='cards mt-10'>
+            {data.map((data) => (
+              <article className='flex flex-col items-center rounded-lg border' key={data.id}>
+                {data.id === 1 ? <FaAward className='about__icon' /> : data.id === 2 ? <FiUsers className='about__icon' /> : <VscFolderLibrary className='about__icon' /> }
+                <h5>{data.header}</h5>
+                <small>{data.detail}</small>
+              </article>
+            ))}
+        </div>
         </div>
       </div>
-  </section>
-)
+    </section>
+  )
+}
 
 export default About

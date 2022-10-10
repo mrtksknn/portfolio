@@ -1,29 +1,30 @@
 import React from 'react'
 
 const Navbar = () => (
-  <header className="bg-gray-800 md:sticky top-0 z-10">
-    <div className="container flex flex-col md:flex-row flex-wrap items-center mx-auto py-5 w-2/3">
+  <header>
+    <div className="container flex flex-row justify-between md:flex-row mx-auto py-5 w-2/3">
       <a href="#about" className="title-font font-medium text-white mb-4 md:mb-0">
-        <span className="text-xl">
-          MERT KESKIN
+        <span className="text-2xl">
+          Mert Keskin
         </span>
       </a>
-      <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
-        <a href="#projects" className="mr-5 hover:text-white">
-          Works
+      <nav>
+        <a href="#projects" className="hover:text-white text-xs uppercase px-5 mr-5">
+          About
         </a>
-        <a href="#skills" className="mr-5 hover:text-white">
-          Skills
+        <a href="#skills" className="hover:text-white text-xs uppercase px-5 mr-5">
+          Work
         </a>
-        <a href="#testimonials" className="mr-5 hover:text-white">
-          Experiences
+        <a href="#testimonials" className="hover:text-white text-xs uppercase px-5 mr-5">
+          Services
+        </a>
+        <a href="#projects" className="hover:text-white text-xs uppercase px-5 mr-5">
+          Experience
+        </a>
+        <a href="#skills" className="hover:text-white text-xs uppercase pl-5 mr-5">
+          Contact
         </a>
       </nav>
-      <a
-        href="#contact"
-        className="inline-flex items-center bg-gray-800 border-0 py-1 focus:outline-none hover:bg-gray-700 rounded text-base md:mt-0">
-        Hire Me
-      </a>
     </div>
     </header>
 )
