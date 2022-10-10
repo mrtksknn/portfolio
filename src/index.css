@@ -5,6 +5,7 @@ html { scroll-behavior: smooth }
 * { font-family: 'Montserrat', sans-serif }
 .container {
   width: 100%;
+  min-width: 1160px;
   max-width: 1160px;
 }
 .parallax {
