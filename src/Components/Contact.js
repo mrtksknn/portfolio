@@ -3,7 +3,7 @@ import React from 'react'
 const Contact = () => {
   return (
     <section id="contact" className="relative">
-      <div className="container flex flex-wrap sm:flex-nowrap mx-auto px-5 py-10 w-2/3">
+      <div className="container flex flex-wrap sm:flex-nowrap mx-auto py-10 w-2/3">
         <div className="flex items-end justify-start relative bg-gray-900 rounded-lg overflow-hidden sm:mr-10 lg:w-2/3 md:w-1/2 p-10">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d195884.20789837514!2d32.62268200682178!3d39.90355566402687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d347d520732db1%3A0xbdc57b0c0842b8d!2sAnkara!5e0!3m2!1sen!2str!4v1665058711320!5m2!1sen!2str"

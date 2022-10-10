@@ -1,5 +1,5 @@
 import React from 'react'
-import { projects } from './data';
+import { projects } from '../data';
 
 const Projects = () => (
   <section id="projects" className="text-gray-400 bg-gray-900 body-font">
@@ -19,7 +19,7 @@ const Projects = () => (
             <a
               href={project.link}
               key={project.title}
-              className="sm:w-1/2 w-100 p-4">
+              className="sm:w-1/3 w-100 p-4">
               <div className="flex relative">
                 <img
                   alt="gallery"

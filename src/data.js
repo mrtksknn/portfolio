@@ -12,7 +12,7 @@ export const projects = [
     subtitle: "React",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
+    image: "./assets/chronometer.png",
     link: "https://reactbootcamp.com",
   },
   {
@@ -56,19 +56,32 @@ export const projects = [
     link: "https://reactbootcamp.com",
   }
 ];
-
-export const skills = [
-  "HTML",
+export const designSkills = [
   "CSS",
-  "JavaScript",
-  "React",
-  "Vue",
+  "SASS",
   "Figma",
-  "Next.js",
-  "Node",
+  "Zeplin",
+  "Adobe XD",
   "Material UI",
-  "Tailwind Css",
+  "Tailwind Css"
+];
+export const frontSkills = [
+  "CSS",
+  "Git",
+  "HTML",
+  "Vue JS",
+  "jQuery",
+  "Next JS",
+  "React JS",
+  "JavaScript"
+];
+export const backSkills = [
+  "Node",
+  "Jira",
   "Java",
   "Oracle",
+  "Laravel",
+  "JavaScript",
   "Restful API"
 ];
+
