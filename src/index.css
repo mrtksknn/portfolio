@@ -1,13 +1,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 html { scroll-behavior: smooth }
 * { font-family: 'Montserrat', sans-serif }
+
 .container {
   width: 100%;
   min-width: 1160px;
   max-width: 1160px;
 }
+/* NAVBAR ANIMATIONS AND DESIGN */
+.nav-items {
+  text-align: center;
+  position: relative;
+}
+.nav-items:after {
+  width: 0;
+  right: 0;
+  bottom: 0;
+  left: auto;
+  content: "";
+  z-index: -1;
+  height: 100%;
+  transition: 0.5s;
+  position: absolute;
+  border-bottom: 2px solid;
+}
+.nav-items:hover { cursor: pointer }
+.nav-items:hover:after {
+  left: 0;
+  width: 100%;
+}
+/* WELCOME SECTION DESIGN */
 .parallax {
   background-image: url("./assets/welcomeBg.jpg");
   background-attachment: fixed;

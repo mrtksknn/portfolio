@@ -7,23 +7,23 @@ const Navbar = () => (
         Mert Keskin
       </span>
     </a>
-    <nav className='flex'>
-      <a href="#projects" className="hover:text-white text-xs uppercase px-5 mr-5">
+    <div className='flex'>
+      <a href="#projects" className="nav-items flex items-center text-xs uppercase px-5 mr-5 hover:text-white pb-2">
         About
       </a>
-      <a href="#skills" className="hover:text-white text-xs uppercase px-5 mr-5">
+      <a href="#skills" className="nav-items flex items-center text-xs uppercase px-5 mr-5 hover:text-white pb-2">
         Work
       </a>
-      <a href="#testimonials" className="hover:text-white text-xs uppercase px-5 mr-5">
+      <a href="#testimonials" className="nav-items flex items-center text-xs uppercase px-5 mr-5 hover:text-white pb-2">
         Services
       </a>
-      <a href="#projects" className="hover:text-white text-xs uppercase px-5 mr-5">
+      <a href="#projects" className="nav-items flex items-center text-xs uppercase px-5 mr-5 hover:text-white pb-2">
         Experience
       </a>
-      <a href="#skills" className="hover:text-white text-xs uppercase pl-5 mr-5">
+      <a href="#skills" className="nav-items flex items-center text-xs uppercase px-5 mr-5 hover:text-white pb-2">
         Contact
       </a>
-    </nav>
+    </div>
   </div>
 )
 

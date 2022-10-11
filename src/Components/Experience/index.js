@@ -17,7 +17,7 @@ const Experience = () => {
         </p>
         <table className="table-auto mt-10">
           <tbody>
-            <tr className='border-b border-slate-800'>
+            <tr className='border-b border-slate-800 hover:bg-slate-900'>
               <td className='text-xl p-4 text-white'>Dec. 2021 - Present</td>
               <td className='text-xl text-white'>
                 Mid. Frontend Developer
@@ -26,7 +26,7 @@ const Experience = () => {
                 </span>
               </td>
             </tr>
-            <tr className='border-b border-slate-800'>
+            <tr className='border-b border-slate-800 hover:bg-slate-900'>
               <td className='text-xl p-4 text-white'>Sep. 2021 - Dec. 2021</td>
               <td className='text-xl text-white'>
                 Junior Frontend Developer
@@ -35,7 +35,7 @@ const Experience = () => {
                 </span>
               </td>
             </tr>
-            <tr className='border-b border-slate-800'>
+            <tr className='border-b border-slate-800 hover:bg-slate-900'>
               <td className='text-xl p-4 text-white'>June 2021 - Sep. 2021</td>
               <td className='text-xl text-white'>
                 Junior Frontend Developer
@@ -44,7 +44,7 @@ const Experience = () => {
                 </span>
               </td>
             </tr>
-            <tr className='border-b border-slate-800'>
+            <tr className='border-b border-slate-800 hover:bg-slate-900'>
               <td className='text-xl p-4 text-white'>Aug. 2020 - Nov. 2020</td>
               <td className='text-xl text-white'>
                 Volunteer Frontend Developer
@@ -53,7 +53,7 @@ const Experience = () => {
                 </span>
               </td>
             </tr>
-            <tr className='border-b border-slate-800'>
+            <tr className='border-b border-slate-800 hover:bg-slate-900'>
               <td className='text-xl p-4 text-white'>July 2019 - Aug. 2019</td>
               <td className='text-xl text-white'>
                 Frontend Developer Intern
@@ -62,7 +62,7 @@ const Experience = () => {
                 </span>
               </td>
             </tr>
-            <tr className='border-b border-slate-800'>
+            <tr className='border-b border-slate-800 hover:bg-slate-900'>
               <td className='text-xl p-4 text-white'>Sep. 2018 - Dec. 2018</td>
               <td className='text-xl text-white'>
                 Frontend Developer Intern
@@ -71,7 +71,7 @@ const Experience = () => {
                 </span>
               </td>
             </tr>
-            <tr className='border-b border-slate-800'>
+            <tr className='border-b border-slate-800 hover:bg-slate-900'>
               <td className='text-xl p-4 text-white'>July 2017 - Aug. 2017</td>
               <td className='text-xl text-white'>
                 Frontend Developer Intern

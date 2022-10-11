@@ -15,11 +15,11 @@ const About = () => {
             Hi! I`m Mert, a frontend and react developer based in the Ankara area.
             I enjoy and love creating modern and functional online amazing experiences.
           </p>
-          <div className="flex justify-center">
-            <a className='text-xs uppercase mr-3.5' href="#contact">
+          <div className='flex'>
+            <a href="-" className="flex items-center text-xs uppercase mr-5 hover:text-red-500 pb-2">
               Github
             </a>
-            <a className='text-xs uppercase' href="#projects">
+            <a href="-" className="flex items-center text-xs uppercase hover:text-red-500 pb-2">
               LinkedIn
             </a>
           </div>
