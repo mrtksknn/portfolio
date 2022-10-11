@@ -1,9 +1,9 @@
 import React from "react";
 import About from "./Components/About";
 import Contact from "./Components/Contact";
+import Experience from "./Components/Experience";
 import Projects from "./Components/Projects";
-import Skills from "./Components/Skills";
-import Testimonials from "./Components/Testimonials";
+import Services from "./Components/Services";
 import Welcome from "./Components/Welcome";
 
 export default function App() {
@@ -12,8 +12,8 @@ export default function App() {
       <Welcome />
       <About />
       <Projects />
-      <Skills />
-      <Testimonials />
+      <Services />
+      <Experience />
       <Contact />
     </main>
   );

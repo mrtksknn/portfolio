@@ -7,7 +7,7 @@ const About = () => {
         <div className="flex flex-col lg:flex-grow items-center md:items-start text-center md:text-left lg:pr-24 md:pr-16 mb-16 md:mb-0">
           <div className='flex items-baseline mb-3'>
             <div className='border-b border-red-500 border-2 mr-3 w-4'/>
-            <span className='text-sm font-semibold'>
+            <span className='text-sm font-semibold tracking-widest'>
               ABOUT
             </span>
           </div>

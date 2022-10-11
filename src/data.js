@@ -2,56 +2,42 @@ export const projects = [
   {
     title: "Portfolio",
     subtitle: "React | Tailwind UI",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
+    image: "./portfolio.png",
     link: "https://reactbootcamp.com",
   },
   {
     title: "Choronometer App",
     subtitle: "React",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./assets/chronometer.png",
+    image: "./chronometer.png",
     link: "https://reactbootcamp.com",
   },
   {
     title: "Aian Kitchen Menu",
     subtitle: "HTML | CSS | JS",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
+    image: "./menu.png",
     link: "https://reactbootcamp.com",
   },
   {
     title: "Searching List",
     subtitle: "React | JS | Json | API",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "./project-4.gif",
     link: "https://reactbootcamp.com",
   },
   {
     title: "Turkey Weather App",
     subtitle: "React | JS | Context API",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "./project-4.gif",
     link: "https://reactbootcamp.com",
   },
   {
     title: "Breaking Bad Character Dex",
     subtitle: "React | JS | Json | Material UI",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "./project-4.gif",
     link: "https://reactbootcamp.com",
   },
   {
     title: "To Do List",
     subtitle: "React | JS | Redux | Mock-api",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "./project-4.gif",
     link: "https://reactbootcamp.com",
   }
@@ -83,21 +69,4 @@ export const backSkills = [
   "Laravel",
   "JavaScript",
   "Restful API"
-];
-
-export const testimonials = [
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Jesse Hicks",
-    company: "Zoozle",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "Ruben Alvarez",
-    company: "Dooble.io",
-  },
 ];
