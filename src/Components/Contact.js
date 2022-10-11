@@ -17,7 +17,6 @@ const Contact = () => {
         </p>
         <div className='flex flex-row justify-between w-full h-full mt-10'>
           <form
-            netlify
             name="test"
             className="flex flex-col w-1/3 mt-5 mr-20"
           >

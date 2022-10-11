@@ -15,7 +15,7 @@ const Experience = () => {
           I`ve had the pleasure of working with some great organizations
           and brilliant people from different sector and projects.
         </p>
-        <table class="table-auto">
+        <table className="table-auto mt-10">
           <tbody>
             <tr className='border-b border-slate-800'>
               <td className='text-xl p-4 text-white'>Dec. 2021 - Present</td>
