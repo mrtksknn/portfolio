@@ -7,7 +7,6 @@ html { scroll-behavior: smooth }
 
 .container {
   width: 100%;
-  min-width: 1160px;
   max-width: 1160px;
 }
 /* NAVBAR ANIMATIONS AND DESIGN */
@@ -42,3 +41,66 @@ html { scroll-behavior: smooth }
 }
 
 .card { height: 270px }
+
+.btn {
+  transition-property: opacity;
+  transition-duration: 1s;
+}
+
+.showbtn {
+  opacity: 1;
+  z-index: 10;
+  height: 40px;
+  width: 40px;
+  right: 20px;
+  bottom: 20px;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  visibility: visible;
+  justify-content: center;
+  background-color: #ec1823;
+}
+
+.showbtn:hover {
+  width: 45px;
+  height: 45px;
+}
+
+.closebtn {
+  opacity: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.mobile-nav {
+  background: rgba(0, 0, 0, 0.3);
+  width: max-content;
+  padding: 0.7rem 1.7rem;
+  z-index: 2;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 2rem;
+  display: flex;
+  gap: 0.8rem;
+  border-radius: 3rem;
+  backdrop-filter: blur(15px);
+}
+
+.mobile-nav > a {
+  background: transparent;
+  padding: 0.9rem;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.mobile-nav > a:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.mobile-nav > a.active {
+  background: #d7444452;
+  color: #fff;
+}

@@ -7,7 +7,7 @@ import { FaUserFriends } from 'react-icons/fa';
 
 const Services = () => {
   return (
-    <section id="services" className='bg-gray-100 py-24'>
+    <section id="services" className='bg-gray-100 py-24 px-3 xl:px-0'>
       <div className="container flex flex-col mx-auto">
         <div className='flex items-baseline mb-3'>
           <div className='border-b border-red-500 border-2 mr-3 w-4'/>
@@ -19,7 +19,7 @@ const Services = () => {
           With a focus on design and art direction, I have
           experience in a variety of related specialties.
         </p>
-        <div className="grid grid-cols-4 gap-4 mt-10">
+        <div className="grid grid-cols-1 gap-1 sm:grid-cols-2 sm:gap-2 md:grid-cols-4 md:gap-4 mt-10">
           {
             services.map((service) => (
               <div key={service.id} className='flex flex-col items-center bg-white rounded-lg px-10 py-12'>

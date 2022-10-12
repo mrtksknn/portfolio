@@ -9,8 +9,7 @@ const Skills = () => {
         <span className='text-white tracking-widest text-xs mb-5'>
           SKILLS
         </span>
-        <p className='text-lg'>
-          <div className='grid grid-cols-1 gap-1'>
+          <div className='grid grid-cols-1 gap-1 text-lg'>
             {skills.map((skill) => (
               <span key={skill.id}>
                 {skill.title}
@@ -18,14 +17,12 @@ const Skills = () => {
               </span>
             ))}
           </div>
-        </p>
       </div>
       <div className='flex flex-col'>
         <span className='text-white tracking-widest text-xs mb-5'>
           TECHNOLOGY
         </span>
-        <p className='text-lg'>
-          <div className='grid grid-cols-2 gap-1'>
+          <div className='grid grid-cols-1 gap-1 sm:grid-cols-2 sm:gap-2 text-lg'>
             {technology.map((tech) => (
               <span key={tech.id}>
                 {tech.title}
@@ -33,7 +30,6 @@ const Skills = () => {
               </span>
             ))}
           </div>
-        </p>
       </div>
     </div>
   )

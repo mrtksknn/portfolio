@@ -4,7 +4,7 @@ import Skills from '../Skills'
 
 const Experience = () => {
   return (
-    <section id='experience' className='bg-black py-24'>
+    <section id='experience' className='bg-black py-24 px-3 xl:px-0'>
       <div className='container flex flex-col mx-auto'>
         <div className='flex items-baseline mb-3'>
           <div className='border-b border-red-500 border-2 mr-3 w-4'/>
@@ -21,7 +21,7 @@ const Experience = () => {
           <tbody>
             {
               experience.map((exp) => (
-                <tr className='border-b border-slate-800 hover:bg-slate-900'>
+                <tr key={exp.date} className='border-b border-slate-800 hover:bg-slate-900'>
                   <td className='text-xl p-4 text-white'>{exp.date}</td>
                   <td className='text-xl text-white'>
                     {exp.title}

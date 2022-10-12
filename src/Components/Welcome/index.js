@@ -4,12 +4,16 @@ import Navbar from '../Navbar';
 const Welcome = () => {
   return (
     <div className="parallax h-screen">
-      <div className='flex flex-col backdrop-blur-sm flex items-center justify-between text-6xl h-full w-full'>
+      <div className='flex flex-col backdrop-blur-sm flex h-full w-full'>
         <Navbar />
-        <div className="text-white font-semibold text-center w-1/3">
+        <div className="text-4xl xl:text-6xl sm:text-5xl xs:text-5xl text-white font-semibold text-center  mt-60 xl:mt-70 sm:mt-60 w-auto">
           HI!
           <br />
-          I'm React, UI, & Frontend Developer
+          I'm React, UI,
+          <br />
+          &
+          <br />
+          Frontend Developer
         </div>
         <br />
       </div>

@@ -2,7 +2,7 @@ import React from 'react'
 import projects from '../../constant/projects';
 
 const Projects = () => (
-  <section id="work" className="text-gray-400 bg-white py-24">
+  <section id="work" className="text-gray-400 bg-white py-24 px-3 lg:px-0">
       <div className="container text-center py-10 mx-auto w-2/3">
         <div className='flex items-baseline mb-12'>
           <div className='border-b border-red-500 border-2 mr-3 w-4'/>
@@ -10,7 +10,7 @@ const Projects = () => (
             MY WORK
           </span>
         </div>
-        <div className="grid grid-cols-3 gap-3 -m-4 px-10">
+        <div className="grid grid-cols-1 gap-1 sm:grid-cols-2 sm:gap-2 md:grid-cols-3 md:gap-3">
           {
             projects.map((project) => (
               <div key={project.title} className='bg-gray-300'>

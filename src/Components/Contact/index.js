@@ -1,8 +1,27 @@
-import React from 'react'
+import React, { useRef } from 'react'
+import emailjs from 'emailjs-com'
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_0rbf7da', 'template_ne9qhi6', form.current, 'HPGdH6pTAslP_R5k0')
+    .then(
+      (result) => {
+        console.log(result.text);
+        alert("SUCCESS!");
+      },
+      (error) => {
+        console.log(error.text);
+        alert("FAILED...", error);
+      }
+    );
+  };
+
   return (
-    <section id="contact" className='bg-white py-24'>
+    <section id="contact" className='bg-white py-24 px-3 xl:px-0'>
       <div className='container flex flex-col mx-auto'>
         <div className='flex items-baseline mb-3'>
           <div className='border-b border-red-500 border-2 mr-3 w-4'/>
@@ -15,10 +34,12 @@ const Contact = () => {
           <br />
           Let`s fill the form.
         </p>
-        <div className='flex flex-row justify-between w-full h-full mt-10'>
+        <div className='flex flex-col md:flex-row justify-between w-full h-full mt-10'>
           <form
+          ref={form}
             name="test"
-            className="flex flex-col w-1/3 mt-5 mr-20"
+            onSubmit={sendEmail}
+            className="flex flex-col w-full lg:w-1/3 mt-5 mr-20"
           >
             <input type="text" id="name" name="name"
               placeholder='Name'
@@ -37,7 +58,7 @@ const Contact = () => {
               Submit
             </button>
           </form>
-          <div className="flex items-end justify-start relative bg-gray-900 rounded-lg overflow-hidden w-2/3 p-5 ml-28">
+          <div className="flex items-end justify-start relative bg-gray-900 rounded-lg overflow-hidden w-full lg:w-2/3 p-5 mt-10 lg:mt-0 lg:ml-28">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d195884.20789837514!2d32.62268200682178!3d39.90355566402687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d347d520732db1%3A0xbdc57b0c0842b8d!2sAnkara!5e0!3m2!1sen!2str!4v1665058711320!5m2!1sen!2str"
               width="100%"
