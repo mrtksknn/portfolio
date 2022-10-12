@@ -16,7 +16,7 @@ const Projects = () => (
               <div className="card relative">
                 <img
                   alt={project.title}
-                  className="absolute object-cover object-center inset-0 w-full h-full"
+                  className="absolute object-cover object-center inset-0 w-full h-full p-5"
                   src={project.image}
                 />
                 <div className="flex flex-col items-center justify-center relative bg-red-500 opacity-0 hover:opacity-90 w-full z-10 h-full">

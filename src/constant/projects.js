@@ -1,3 +1,4 @@
+import project0 from '../assets/portfolio.png';
 import project1 from '../assets/chronometer.png';
 import project2 from '../assets/menu.png';
 import project3 from '../assets/search.png';
@@ -6,6 +7,12 @@ import project5 from '../assets/dex.png';
 import project6 from '../assets/todo.png';
 
 const MODALLIST1 = [
+  {
+    title: "Portfolio",
+    subtitle: "React",
+    image: project0,
+    link: "https://reactbootcamp.com",
+  },
   {
     title: "Choronometer App",
     subtitle: "React",
