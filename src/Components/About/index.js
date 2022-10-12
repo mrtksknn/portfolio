@@ -16,10 +16,16 @@ const About = () => {
             I enjoy and love creating modern and functional online amazing experiences.
           </p>
           <div className='flex'>
-            <a href="-" className="flex items-center text-xs uppercase mr-5 hover:text-red-500 pb-2">
+            <a
+              href="https://github.com/mrtksknn"
+              className="flex items-center text-xs uppercase mr-5 hover:text-red-500 pb-2"
+            >
               Github
             </a>
-            <a href="-" className="flex items-center text-xs uppercase hover:text-red-500 pb-2">
+            <a
+              href="https://www.linkedin.com/in/keskin-mert/"
+              className="flex items-center text-xs uppercase hover:text-red-500 pb-2"
+            >
               LinkedIn
             </a>
           </div>

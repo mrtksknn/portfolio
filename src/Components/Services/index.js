@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import services from '../../constant/services';
 import { BsArrowsMove } from "react-icons/bs";
 import { MdOutlineDesignServices } from 'react-icons/md';
 import { RiEditBoxLine } from 'react-icons/ri';
@@ -6,7 +7,7 @@ import { FaUserFriends } from 'react-icons/fa';
 
 const Services = () => {
   return (
-    <section className='bg-gray-100 py-24'>
+    <section id="services" className='bg-gray-100 py-24'>
       <div className="container flex flex-col mx-auto">
         <div className='flex items-baseline mb-3'>
           <div className='border-b border-red-500 border-2 mr-3 w-4'/>
@@ -19,30 +20,29 @@ const Services = () => {
           experience in a variety of related specialties.
         </p>
         <div className="grid grid-cols-4 gap-4 mt-10">
-          <div className='flex flex-col items-center bg-white rounded-lg px-10 py-12'>
-            <MdOutlineDesignServices size={50} color="red" />
-            <span className='text-base mt-5'>
-              UI Design
-            </span>
-          </div>
-          <div className='flex flex-col items-center bg-white rounded-lg px-10 py-12'>
-            <BsArrowsMove size={50} color="red" />
-            <span className='text-base mt-5'>
-              Responsive Design
-            </span>
-          </div>
-          <div className='flex flex-col items-center bg-white rounded-lg px-10 py-12'>
-            <RiEditBoxLine size={50} color="red" />
-            <span className='text-base mt-5'>
-              Updates & Maintenance
-            </span>
-          </div>
-          <div className='flex flex-col items-center bg-white rounded-lg px-10 py-12'>
-            <FaUserFriends size={50} color="red" />
-            <span className='text-base mt-5'>
-              User Friendly
-            </span>
-          </div>
+          {
+            services.map((service) => (
+              <div key={service.id} className='flex flex-col items-center bg-white rounded-lg px-10 py-12'>
+                {
+                  service.id === 1 ?
+                  <MdOutlineDesignServices size={50} color="red" />
+                  :
+                  service.id === 2 ?
+                  <BsArrowsMove size={50} color="red" />
+                  :
+                  service.id === 3 ?
+                  <RiEditBoxLine size={50} color="red" />
+                  :
+                  service.id === 4 ?
+                  <FaUserFriends size={50} color="red" />
+                  : ''
+                }
+                <span className='text-base mt-5'>
+                  {service.title}
+                </span>
+              </div>
+            ))
+          }
         </div>
       </div>
     </section>
