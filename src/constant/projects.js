@@ -1,10 +1,10 @@
-import project0 from '../assets/portfolio.png';
-import project1 from '../assets/chronometer.png';
-import project2 from '../assets/menu.png';
-import project3 from '../assets/search.png';
-import project4 from '../assets/clock.png';
-import project5 from '../assets/dex.png';
-import project6 from '../assets/todo.png';
+import project0 from '../assets/portfolio.AVIF';
+import project1 from '../assets/chronometer.AVIF';
+import project2 from '../assets/menu.AVIF';
+import project3 from '../assets/search.AVIF';
+import project4 from '../assets/clock.AVIF';
+import project5 from '../assets/dex.AVIF';
+import project6 from '../assets/todo.AVIF';
 
 const MODALLIST1 = [
   {

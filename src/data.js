@@ -2,19 +2,19 @@ export const projects = [
   {
     title: "Portfolio",
     subtitle: "React | Tailwind UI",
-    image: "./portfolio.png",
+    image: "./portfolio.AVIF",
     link: "https://reactbootcamp.com",
   },
   {
     title: "Choronometer App",
     subtitle: "React",
-    image: "./chronometer.png",
+    image: "./chronometer.AVIF",
     link: "https://reactbootcamp.com",
   },
   {
     title: "Aian Kitchen Menu",
     subtitle: "HTML | CSS | JS",
-    image: "./menu.png",
+    image: "./menu.AVIF",
     link: "https://reactbootcamp.com",
   },
   {

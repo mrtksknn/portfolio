@@ -58,7 +58,7 @@ const Contact = () => {
               Submit
             </button>
           </form>
-          <div className="flex items-end justify-start relative bg-gray-900 rounded-lg overflow-hidden w-full lg:w-2/3 p-5 mt-10 lg:mt-0 lg:ml-28">
+          <div className="hidden md:flex items-end justify-start relative bg-gray-900 rounded-lg overflow-hidden w-full lg:w-2/3 p-5 mt-10 lg:mt-0 lg:ml-28">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d195884.20789837514!2d32.62268200682178!3d39.90355566402687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d347d520732db1%3A0xbdc57b0c0842b8d!2sAnkara!5e0!3m2!1sen!2str!4v1665058711320!5m2!1sen!2str"
               width="100%"
