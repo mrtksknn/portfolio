@@ -5,19 +5,19 @@ import Skills from '../Skills'
 const Experience = () => {
   return (
     <section id='experience' className='bg-black py-24 px-3 xl:px-0'>
-      <div className='container flex flex-col mx-auto'>
+      <div className='container flex flex-col items-center lg:items-baseline mx-auto'>
         <div className='flex items-baseline mb-3'>
           <div className='border-b border-red-500 border-2 mr-3 w-4'/>
           <span className='text-sm font-medium tracking-widest'>
             WORK EXPERIENCE
           </span>
         </div>
-        <p className="leading-relaxed text-3xl text-slate-800 text-white mb-3 w-5/6">
+        <p className="leading-relaxed text-3xl text-center lg:text-start text-white mb-3 w-2/3">
           With more than 5 years of experience,
           I`ve had the pleasure of working with some great organizations
           and brilliant people from different sector and projects.
         </p>
-        <table className="table-auto mt-10">
+        <table className="table-auto mt-10 w-full">
           <tbody>
             {
               experience.map((exp) => (

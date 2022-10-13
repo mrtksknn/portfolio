@@ -8,14 +8,14 @@ import { FaUserFriends } from 'react-icons/fa';
 const Services = () => {
   return (
     <section id="services" className='bg-gray-100 py-24 px-3 xl:px-0'>
-      <div className="container flex flex-col mx-auto">
+      <div className="container flex flex-col items-center mx-auto">
         <div className='flex items-baseline mb-3'>
           <div className='border-b border-red-500 border-2 mr-3 w-4'/>
           <span className='text-sm font-medium tracking-widest'>
             SERVICES
           </span>
         </div>
-        <p className="leading-relaxed text-3xl text-slate-800 mb-3 w-2/3">
+        <p className="leading-relaxed text-3xl text-center lg:text-start text-slate-800 mb-3 w-2/3">
           With a focus on design and art direction, I have
           experience in a variety of related specialties.
         </p>

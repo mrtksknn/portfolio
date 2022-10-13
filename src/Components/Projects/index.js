@@ -13,11 +13,11 @@ const Projects = () => (
         <div className="grid grid-cols-1 gap-1 sm:grid-cols-2 sm:gap-2 md:grid-cols-3 md:gap-3">
           {
             projects.map((project) => (
-              <div key={project.title} className='bg-gray-300 box-border'>
+              <div key={project.title} className='bg-gray-300'>
                 <div className="card relative">
                   <img
                     alt={project.title}
-                    className="absolute object-cover object-center inset-0 h-full p-5"
+                    className="absolute object-cover object-center inset-0 w-full h-full p-3"
                     src={project.image}
                   />
                   <div className="flex flex-col items-center justify-center relative bg-red-500 opacity-0 hover:opacity-90 w-full z-10 h-full">
