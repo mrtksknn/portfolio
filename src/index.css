@@ -33,7 +33,7 @@ html { scroll-behavior: smooth }
 }
 /* WELCOME SECTION DESIGN */
 .parallax {
-  background-image: url("./assets/welcomeBg.AVIF");
+  background-image: url("./assets/welcomeBg.WebP");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
