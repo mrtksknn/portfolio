@@ -1,5 +1,5 @@
 import React from 'react'
-import experience from '../../constant/experiences'
+import experience from '../../Datas/experiences'
 import Skills from '../Skills'
 
 const Experience = () => {

@@ -1,8 +1,8 @@
 import React from 'react'
-import skills from '../../constant/skills'
-import frontend from '../../constant/frontend'
-import backend from '../../constant/backend'
-import design from '../../constant/design'
+import skills from '../../Datas/skills'
+import frontend from '../../Datas/frontend'
+import backend from '../../Datas/backend'
+import design from '../../Datas/design'
 
 const SkillList = ({title}) => {
   return (

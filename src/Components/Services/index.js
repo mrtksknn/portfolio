@@ -1,5 +1,5 @@
 import React from 'react';
-import services from '../../constant/services';
+import services from '../../Datas/services';
 import { BsArrowsMove } from "react-icons/bs";
 import { MdOutlineDesignServices } from 'react-icons/md';
 import { RiEditBoxLine } from 'react-icons/ri';
