@@ -20,22 +20,22 @@ const Projects = () => (
                     className="absolute object-cover object-center inset-0 w-full h-full p-3"
                     src={project.image}
                   />
-                  <div className="flex flex-col items-center justify-center relative bg-red-500 opacity-0 hover:opacity-90 px-5 z-10 w-full h-full">
-                    <span className="title-font font-medium text-base text-white leading-7 border-4 py-1.5 px-4 mb-3">
+                  <div className="flex flex-col items-center justify-center relative bg-red-500 opacity-0 hover:opacity-90 opacity-90 sm:opacity-0 px-5 z-10 w-full h-full">
+                    <span className="title-font font-medium text-base text-white leading-7 border-4 py-1.5 px-4">
                       {project.title}
                     </span>
-                    <ul className='flex flex-row justify-around w-2/3'>
+                    <ul className='flex flex-row justify-around w-2/3 my-3'>
                       {project.subtitle.map((item, index) => {
                           return <li key={index} className="tracking-widest text-sm text-white">
                           {item}
                         </li>
                       })}
                     </ul>
-                    <div className='flex justify-center px-10 mt-3 w-full'>
-                      <a className='flex items-center justify-center text-white hover:bg-red-700 rounded mx-3 py-1 px-3 max-w-8' href={project.source}>
+                    <div className='flex justify-center px-10 w-full'>
+                      <a className='flex items-center justify-center text-white border-2 hover:bg-red-700 rounded mx-3 py-1 px-3 max-w-8' href={project.source}>
                         Source
                       </a>
-                      <a className='flex items-center justify-center text-white hover:bg-red-700 rounded mx-3 py-1 px-3 max-w-8' href={project.live}>
+                      <a className='flex items-center justify-center text-white border-2 hover:bg-red-700 rounded mx-3 py-1 px-3 max-w-8' href={project.live}>
                         View
                       </a>
                     </div>
